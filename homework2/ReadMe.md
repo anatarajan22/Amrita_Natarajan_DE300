@@ -1,5 +1,11 @@
 Both notebooks are labeled in terms of the order they should be run in. For both, the csv files need to be uploaded to the same folder as the file in order to run. 
 
+To run DockerFile:
+build docker image with: sudo docker build -t icu-homework2 .
+run on 8888 port: sudo docker run -p 8888:8888 icu-homework2
+then open the browser
+(for reference, container ID is f8c6af677a65)
+
 For Part 1:
 Code should be run in python (installing imports if they do not exist in notebooks). Expected outputs are tables queried through SQL as well as histograms and measures of spread representing comparisons of findings.
 
